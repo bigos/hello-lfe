@@ -2,4 +2,4 @@
   (export all))
 
 (defun hello-lfe ()
-  (: io format "Hello from LFE project"))
+  (: io format "Hello from LFE project~n"))

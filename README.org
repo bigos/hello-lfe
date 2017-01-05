@@ -1,5 +1,6 @@
 * why
-An OTP application
+An OTP application can work with LFE code.
+The secret was adding the name of LFE module to why.app.src
 
 ** Build
 #+BEGIN_EXAMPLE
