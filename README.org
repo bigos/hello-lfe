@@ -1,13 +1,6 @@
 * LFE and OTP example
 
 An OTP application can work with LFE code.
-The secret was adding the name of LFE module to ~src/why.app.src~
-
-hello is the name of LFE module that was added.
-#+BEGIN_EXAMPLE
- {mod, { why_app, [hello]}},
-#+END_EXAMPLE
-
 
 ** Build
 #+BEGIN_EXAMPLE
