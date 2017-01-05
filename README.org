@@ -1,0 +1,23 @@
+* why
+An OTP application
+
+** Build
+#+BEGIN_EXAMPLE
+$ rebar3 lfe compile
+$ rebar3 compile
+#+END_EXAMPLE
+
+** REPL
+#+BEGIN_EXAMPLE
+$ rebar3 lfe repl
+#+END_EXAMPLE
+
+Lisp code
+#+BEGIN_SRC lisp
+(: hello hello-lfe)
+#+END_SRC
+
+#+BEGIN_EXAMPLE
+Hello from LFE project
+ok
+#+END_EXAMPLE
