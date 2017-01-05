@@ -2,4 +2,4 @@
   (export all))
 
 (defun hello ()
-  (: io format "Hello from LFE project~n"))
+  (io:put_chars "Hello from LFE project~n"))
